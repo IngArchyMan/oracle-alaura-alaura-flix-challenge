@@ -1,0 +1,34 @@
+.video-card-container{
+    min-width: 0;
+    flex: 1;
+    flex-grow: 1;
+    border-radius: 24px;
+    .video-thumbnail{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: inline-block;
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+    }
+    .bottom-actions-container{
+        padding: 8px 32px;
+        .button-actions{
+            gap: 12px;
+            .action-button{
+                padding: 4px 0;
+                padding-right: 24px;
+                padding-left: 16px;
+                background-color: transparent;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                transition: 300ms all ease-in-out;
+                &:hover{
+                    opacity: 0.85;
+                    transform: scale(0.95);
+                }
+            }
+        }
+    }
+}

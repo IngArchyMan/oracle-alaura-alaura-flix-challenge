@@ -1,0 +1,177 @@
+//shortcuts
+$tg-primary: primary;
+$tg-on-primary: on-primary;
+$tg-primary-container: primary-container;
+$tg-on-primary-container: on-primary-container;
+$tg-secondary: secondary;
+$tg-on-secondary: on-secondary;
+$tg-secondary-container: secondary-container;
+$tg-on-secondary-container: on-secondary-container;
+$tg-tertiary: tertiary;
+$tg-on-tertiary: on-tertiary;
+$tg-tertiary-container: tertiary-container;
+$tg-on-tertiary-container: on-tertiary-container;
+$tg-error: error;
+$tg-on-error: on-error;
+$tg-error-container: error-contianer;
+$tg-on-error-container: on-error-contianer;
+$tg-success: success;
+$tg-background: background;
+$tg-on-background: on-background;
+$tg-surface: surface;
+$tg-on-surface: on-surface;
+$tg-surface-variant: surface-variant;
+$tg-on-surface-variant: on-surface-variant;
+$tg-outline: outline;
+$tg-outline-variant: outline-variant;
+$tg-shadow: shadow;
+$tg-scrim: scrim;
+$tg-inverse-surface: inverse-surface;
+$tg-inverse-on-surface: inverse-on-surface;
+$tg-inverse-primary: inverse-primary;
+$tg-primary-fixed: primary-fixed;
+$tg-on-primary-fixed: on-primary-fixed;
+$tg-primary-fixed-dim: primary-fixed-dim;
+$tg-on-primary-fixed-variant: on-primary-fixed-variant;
+$tg-secondary-fixed: secondary-fixed;
+$tg-on-secondary-fixed: on-secondary-fixed;
+$tg-secondary-fixed-dim: secondary-fixed-dim;
+$tg-on-secondary-fixed-variant: on-secondary-fixed-variant;
+$tg-tertiary-fixed: tertiary-fixed;
+$tg-on-tertiary-fixed:on-tertiary-fixed;
+$tg-tertiary-fixed-dim: tertiary-fixed-dim;
+$tg-on-tertiary-fixed-variant: on-tertiary-fixed-variant;
+$tg-surface-dim: surface-dim;
+$tg-surface-bright: surface-bright;
+$tg-surface-container-lowest: surface-container-lowest;
+$tg-surface-container-low: surface-container-low;
+$tg-surface-container: surface-container;
+$tg-surface-container-high: surface-container-high;
+$tg-surface-container-highest: surface-container-highest;
+
+
+$themes: (
+  light: (
+    primary: $lg-primary,
+    on-primary: $lg-on-primary,
+    primary-container: $lg-primary-container ,
+    on-primary-container: $lg-on-primary-container ,
+    secondary: $lg-secondary,
+    on-secondary: $lg-on-secondary ,
+    secondary-container: $lg-secondary-container ,
+    on-secondary-container: $lg-on-secondary-container ,
+    tertiary: $lg-tertiary ,
+    on-tertiary: $lg-on-tertiary ,
+    tertiary-container: $lg-tertiary-container ,
+    on-tertiary-contianer: $lg-on-tertiary-container ,
+    error: $lg-error ,
+    error-container: $lg-error-container ,
+    on-error: $lg-on-error ,
+    on-error-container: $lg-on-error-container ,
+    background: $lg-background ,
+    on-background: $lg-on-background ,
+    surface: $lg-surface ,
+    on-surface: $lg-on-surface ,
+    surface-variant: $lg-surface-variant ,
+    on-surface-variant: $lg-on-surface-variant ,
+    outline: $lg-outline ,
+    outline-variant: $lg-outline-variant ,
+    shadow: $lg-shadow ,       
+    scrim: $lg-scrim ,
+    inverse-surface: $lg-inverse-surface,
+    inverse-on-surface:$lg-inverse-on-surface,
+    inverse-primary: $lg-inverse-primary, 
+    primary-fixed: $lg-primary-fixed ,
+    on-primary-fixed: $lg-on-primary-fixed ,
+    primary-fixed-dim: $lg-primary-fixed-dim ,
+    on-primary-fixed-variant: $lg-on-primary-fixed-variant ,
+    secondary-fixed: $lg-secondary-fixed ,
+    on-secondary-fixed: $lg-on-secondary-fixed ,
+    secondary-fixed-dim: $lg-secondary-fixed-dim ,
+    on-secondary-fixed-variant: $lg-on-secondary-fixed-variant ,
+    tertiary-fixed: $lg-tertiary-fixed ,
+    on-tertiary-fixed:$lg-on-tertiary-fixed ,
+    tertiary-fixed-dim: $lg-tertiary-fixed-dim ,
+    on-tertiary-fixed-variant: $lg-on-tertiary-fixed-variant ,
+    surface-dim: $lg-surface-dim ,
+    surface-bright: $lg-surface-bright ,
+    surface-container-lowest: $lg-surface-container-lowest,
+    surface-container-low: $lg-surface-container-low,
+    surface-container: $lg-surface-container ,
+    surface-container-high: $lg-surface-container-high,
+    surface-container-highest: $lg-surface-container-highest,
+  ),
+  dark: (
+    primary: $dk-primary,
+    on-primary: $dk-on-primary,
+    primary-container: $dk-primary-container ,
+    on-primary-container: $dk-on-primary-container ,
+    secondary: $dk-secondary,
+    on-secondary: $dk-on-secondary ,
+    secondary-container: $dk-secondary-container ,
+    on-secondary-container: $dk-on-secondary-container ,
+    tertiary: $dk-tertiary ,
+    on-tertiary: $dk-on-tertiary ,
+    tertiary-container: $dk-tertiary-container ,
+    on-tertiary-contianer: $dk-on-tertiary-container ,
+    error: $dk-error ,
+    error-container: $dk-error-container ,
+    on-error: $dk-on-error ,
+    on-error-container: $dk-on-error-container ,
+    background: $dk-background ,
+    on-background: $dk-on-background ,
+    surface: $dk-surface ,
+    on-surface: $dk-on-surface ,
+    surface-variant: $dk-surface-variant ,
+    on-surface-variant: $dk-on-surface-variant ,
+    outline: $dk-outline ,
+    outline-variant: $dk-outline-variant ,
+    shadow: $dk-shadow , 
+    scrim: $dk-scrim ,
+    inverse-surface: $dk-inverse-surface,
+    inverse-on-surface:$dk-inverse-on-surface,
+    inverse-primary: $dk-inverse-primary, 
+    primary-fixed: $dk-primary-fixed ,
+    on-primary-fixed: $dk-on-primary-fixed ,
+    primary-fixed-dim: $dk-primary-fixed-dim ,
+    on-primary-fixed-variant: $dk-on-primary-fixed-variant ,
+    secondary-fixed: $dk-secondary-fixed ,
+    on-secondary-fixed: $dk-on-secondary-fixed ,
+    secondary-fixed-dim: $dk-secondary-fixed-dim ,
+    on-secondary-fixed-variant: $dk-on-secondary-fixed-variant ,
+    tertiary-fixed: $dk-tertiary-fixed ,
+    on-tertiary-fixed:$dk-on-tertiary-fixed ,
+    tertiary-fixed-dim: $dk-tertiary-fixed-dim ,
+    on-tertiary-fixed-variant: $dk-on-tertiary-fixed-variant ,
+    surface-dim: $dk-surface-dim ,
+    surface-bright: $dk-surface-bright ,
+    surface-container-lowest: $dk-surface-container-lowest,
+    surface-container-low: $dk-surface-container-low,
+    surface-container: $dk-surface-container ,
+    surface-container-high: $dk-surface-container-high,
+    surface-container-highest: $dk-surface-container-highest,
+  ),
+);
+
+@mixin themed() {
+  @each $theme, $map in $themes {
+    .tg-th--#{$theme} & {
+      $theme-map: () !global;
+      @each $key, $submap in $map {
+        $value: map-get(map-get($themes, $theme), "#{$key}");
+        $theme-map: map-merge(
+          $theme-map,
+          (
+            $key: $value,
+          )
+        ) !global;
+      }
+      @content;
+      $theme-map: null !global;
+    }
+  }
+}
+
+@function scheme($key) {
+  @return map-get($theme-map, $key);
+}

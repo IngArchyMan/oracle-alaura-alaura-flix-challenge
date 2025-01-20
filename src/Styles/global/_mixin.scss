@@ -1,0 +1,32 @@
+//359.98px, 575.98px, 767.98px, 991.98px, 1199.98px, 1399.98px
+$break-up: (
+  "small": "359.98px",
+  "medium": "767.98px",
+  "large": "1199.98px",
+  "x-large": "1399.98px",
+);
+
+//360px, 576px, 768px, 992px, 1200px, 1400px,
+$break-down: (
+  "small": "360px",
+  "medium": "768px",
+  "large": "1200px",
+  "x-large": "1400px",
+);
+
+$orientation: (
+  "landscape": "landscape", 
+  "portrait": "portrait"
+);
+
+@mixin breakpoint-up($size) {
+  @media (min-width: map-get($map: $break-up, $key: $size)) {
+    @content;
+  }
+}
+
+@mixin breakpoint-down($size) {
+  @media (max-width: map-get($map: $break-down, $key: $size)) {
+    @content;
+  }
+}

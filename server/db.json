@@ -1,0 +1,104 @@
+{
+    "videos": [
+      {
+        "id": 1,
+        "titulo": "¿Qué significa pensar como programador?",
+        "categoria": "Frontend",
+        "descripcion": "¿Cuáles son las principales características de un programador? ¿Qué habilidades y competencias debe tener alguien que quiere seguir esa carrera?",
+        "imagen": "https://i.ytimg.com/vi/ov7vA5HFe6w/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCfwWHRcyeuUdpThD3GuFvWhenBzQ",
+        "video": "https://www.youtube.com/watch?v=ov7vA5HFe6w&ab_channel=AluraLatam"
+      },
+      {
+        "id": 2,
+        "titulo": "¿Cuándo usar let y const?",
+        "categoria": "Frontend",
+        "descripcion": "Entiende las diferencias entre let y const en JavaScript y cuándo usar cada uno",
+        "imagen": "https://i.ytimg.com/vi/PztCEdIJITY/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCd5jxSprvo-KAWg2kDt9y5Kv7OqA",
+        "video": "https://www.youtube.com/watch?v=PztCEdIJITY&ab_channel=AluraLatam"
+      },
+      {
+        "id": 3,
+        "titulo": "¿Qué es JavaScript?",
+        "categoria": "Frontend",
+        "descripcion": "JavaScript: ¿qué es y cómo se hizo este lenguaje que genera muchas discusiones y debates entre la gente del área de desarrollo? Genesys y Gabriela nos hablan exactamente de esto en este Alura Tips.",
+        "imagen": "https://i.ytimg.com/vi/GJfOSoaXk4s/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDreFD5RmKqHAKumA40iu2Y7WRlng",
+        "video": "https://www.youtube.com/watch?v=GJfOSoaXk4s&ab_channel=AluraLatam"
+      },
+      {
+        "id": 4,
+        "titulo": "Equipo Front End",
+        "categoria": "Frontend",
+        "descripcion": "¿Estás empezando tus estudios de Programación? ¿Te interesa todo lo que es la creación de Páginas Web Desarrollo de Softwares? ¿O estás pensando en cambiar de carrera y entrar a la maravillosa area de tecnología?",
+        "imagen": "https://i.ytimg.com/vi/rpvrLaBQwgg/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDoze14OaiA2WUOaVtMzo9bhOet7g",
+        "video": "https://www.youtube.com/watch?v=rpvrLaBQwgg&ab_channel=AluraLatam"
+      },
+      {
+        "id": 5,
+        "titulo": "Spring Framework",
+        "categoria": "Backend",
+        "descripcion": "¿Busca un framework  para utilizar en sus proyectos? ¿Conoce Spring Framework? Spring es el framework más usado de Java. Nos ofrece herramientas que nos permiten crear proyectos más avanzados, con mejores prácticas y en menor tiempo. También posee una gran comunidad, lo que nos brinda muchísima documentación y ayuda.",
+        "imagen": "https://i.ytimg.com/vi/t-iqt1b2qqk/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCCiPwSxhGt7zBegf93rY6SD-4YJg",
+        "video": "https://www.youtube.com/watch?v=t-iqt1b2qqk&ab_channel=AluraLatam"
+      },
+      {
+        "id": 6,
+        "titulo": "Simplificando tu código en Java: Conoce los enum",
+        "categoria": "Backend",
+        "descripcion": "¿Escribir muchas variables del tipo constantes en Java te parece un proceso tedioso y que genera muchas líneas de código? En este Alura+ la instructora Génesys Rondón nos enseña a simplificar esta tarea usando un tipo de dato especial llamado enum.",
+        "imagen": "https://i.ytimg.com/vi/EoPvlE85XAQ/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDjvUhEzhOC3WSE3vOQlg1lJaDEmQ",
+        "video": "https://www.youtube.com/watch?v=EoPvlE85XAQ&ab_channel=AluraLatam"
+      },
+      {
+        "id": 7,
+        "titulo": "¿Qué es SQL y NoSQL?",
+        "categoria": "Backend",
+        "descripcion": "¿Cuáles son las diferencias entre una estructura de datos relacional (SQL) y una no relacional (NoSQL) y cuáles son las principales ventajas de cada una? Álvaro Camacho lo explica en este vídeo.",
+        "imagen": "https://i.ytimg.com/vi/cLLKVd5CNLc/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBIu9X8EX0BH25qxdBR_AdlWDbQAg",
+        "video": "https://www.youtube.com/watch?v=cLLKVd5CNLc"
+      },
+      {
+        "id": 8,
+        "titulo": "¿Qué son las Soft Skills?",
+        "categoria": "Innovación y Gestión",
+        "descripcion": "¿Qué son las Softskills y por qué es tan importante desarrollarlas para posicionarse en el mercado laboral? En este video de Alura Tips, Pri Stuani nos habla de las habilidades más buscadas por las empresas en sus profesionales y cómo las Soft Skills te ayudan en el día a día.",
+        "imagen": "https://i.ytimg.com/vi/vhwspfvI52k/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDCRBzW3OEDOzjA9T5cnuH3sBJ54A",
+        "video": "https://www.youtube.com/watch?v=vhwspfvI52k&ab_channel=AluraLatam"
+      },
+      {
+        "id": 9,
+        "titulo": "7 Soft Skills más deseadas por las empresas",
+        "categoria": "Innovación y Gestión",
+        "descripcion": "Seguro que ya escuchaste hablar sobre las Soft Skills, pero ¿sabes cuáles son las 7 más buscadas por las empresas? Quédate en este video con nosotros que vamos a explicarte la importancia de estas habilidades y porque son tan requeridas en el mercado laboral.",
+        "imagen": "https://i.ytimg.com/vi/YhR7Zp8NUzE/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBKJl87gbTgiZQQAxYgRBUWbM5KcQ",
+        "video": "https://www.youtube.com/watch?v=YhR7Zp8NUzE&ab_channel=AluraLatam"
+      },
+      {
+        "id": 10,
+        "titulo": "¿Qué son las metodologias ágiles?",
+        "categoria": "Innovación y Gestión",
+        "descripcion": "En este video nuestra invitada, Andyara, nos explicará que són las muy conocidas hoy en día metodologias ágiles y nos comentará un poco sobre como aplicarlas y cuáles son los beneficios de utilizarlas en su equipo o empresa.",
+        "imagen": "https://i.ytimg.com/vi/6N3OkLCfK-0/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBoZaxZEgA9C-tQTjjhIuaOL5TsMA",
+        "video": "https://www.youtube.com/watch?v=6N3OkLCfK-0&ab_channel=AluraLatam"
+      }
+    ],
+    "categorias": [
+      {
+        "id": 1,
+        "nombre": "Frontend",
+        "descripcion": "Contenido relacionado con desarrollo frontend",
+        "color": "bg-blue-500"
+      },
+      {
+        "id": 2,
+        "nombre": "Backend",
+        "descripcion": "Contenido relacionado con desarrollo backend",
+        "color": "bg-green-500"
+      },
+      {
+        "id": 3,
+        "nombre": "Innovación y Gestión",
+        "descripcion": "Contenido sobre metodologías ágiles y gestión de proyectos",
+        "color": "bg-yellow-500"
+      }
+    ]
+  }

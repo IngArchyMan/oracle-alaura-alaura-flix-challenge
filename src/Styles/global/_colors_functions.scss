@@ -1,0 +1,525 @@
+.tg-scrollbar{
+    @include themed() {
+      scrollbar-color: scheme($tg-on-primary-container);
+    }
+  }
+  
+  .tg-primary {
+    @include themed() {
+      background-color: scheme($tg-primary);
+    }
+  }
+  .tg-primary-border{
+    @include themed() {
+      border-color: scheme($tg-primary);
+    }
+  }
+  .tg-primary-text {
+    @include themed() {
+      color: scheme($tg-primary);
+    }
+  }
+  
+  .tg-on-primary {
+    @include themed() {
+      background-color: scheme($tg-on-primary);
+    }
+  }
+  .tg-on-primary-border {
+    @include themed() {
+      border-color: scheme($tg-on-primary);
+    }
+  }
+  .tg-on-primary-text {
+    @include themed() {
+      color: scheme($tg-on-primary);
+    }
+  }
+  .tg-primary-container {
+    @include themed() {
+      background-color: scheme($tg-primary-container);
+    }
+  }
+  .tg-primary-container-text {
+    @include themed() {
+      color: scheme($tg-primary-container);
+    }
+  }
+  .tg-on-primary-container {
+    @include themed() {
+      background-color: scheme($tg-on-primary-container);
+    }
+  }
+  .tg-on-primary-container-text {
+    @include themed() {
+      color: scheme($tg-on-primary-container);
+    }
+  }
+  .tg-on-primary-border {
+    @include themed() {
+      border-color: scheme($tg-on-primary-container);
+    }
+  }
+  .tg-secondary {
+    @include themed() {
+      background-color: scheme($tg-secondary);
+    }
+  }
+  .tg-secondary-text {
+    @include themed() {
+      color: scheme($tg-secondary);
+    }
+  }
+  .tg-secondary-border {
+    @include themed() {
+      border: 1px solid scheme($tg-secondary);
+    }
+  }
+  
+  .tg-on-secondary {
+    @include themed() {
+      background-color: scheme($tg-on-secondary);
+    }
+  }
+  .tg-on-secondary-text {
+    @include themed() {
+      color: scheme($tg-on-secondary);
+    }
+  }
+  .tg-secondary-container {
+    @include themed() {
+      background-color: scheme($tg-secondary-container);
+    }
+  }
+  .tg-secondary-container-text {
+    @include themed() {
+      color: scheme($tg-secondary-container);
+    }
+  }
+  .tg-on-secondary-container {
+    @include themed() {
+      background-color: scheme($tg-on-secondary-container);
+    }
+  }
+  .tg-on-secondary-container-text {
+    @include themed() {
+      color: scheme($tg-on-secondary-container);
+    }
+  }
+  .tg-tertiary {
+    @include themed() {
+      background-color: scheme($tg-tertiary);
+    }
+  }
+  .tg-tertiary-text {
+    @include themed() {
+      color: scheme($tg-tertiary);
+    }
+  }
+  .tg-on-tertiary {
+    @include themed() {
+      background-color: scheme($tg-on-tertiary);
+    }
+  }
+  .tg-on-tertiary-text {
+    @include themed() {
+      color: scheme($tg-on-tertiary);
+    }
+  }
+  .tg-tertiary-container {
+    @include themed() {
+      background-color: scheme($tg-tertiary-container);
+    }
+  }
+  .tg-tertiary-container-text {
+    @include themed() {
+      color: scheme($tg-tertiary-container);
+    }
+  }
+  .tg-on-tertiary-container {
+    @include themed() {
+      background-color: scheme($tg-on-tertiary-container);
+    }
+  }
+  .tg-on-tertiary-container-text {
+    @include themed() {
+      color: scheme($tg-on-tertiary-container);
+    }
+  }
+  .tg-error {
+    @include themed() {
+      background-color: scheme($tg-error);
+    }
+  }
+  .tg-error-border {
+    @include themed() {
+      border: 1px solid scheme($tg-error) ;
+    }
+  }
+  .tg-error-text {
+    @include themed() {
+      color: scheme($tg-error);
+    }
+  }
+  .tg-error-container {
+    @include themed() {
+      background-color: scheme($tg-error-container);
+    }
+  }
+  .tg-error-container-text {
+    @include themed() {
+      color: scheme($tg-error-container);
+    }
+  }
+  .tg-on-error {
+    @include themed() {
+      background-color: scheme($tg-on-error);
+    }
+  }
+  .tg-on-error-text {
+    @include themed() {
+      color: scheme($tg-on-error);
+    }
+  }
+  .tg-on-error-container {
+    @include themed() {
+      background-color: scheme($tg-on-error-container);
+    }
+  }
+  .tg-on-error-container-text {
+    @include themed() {
+      color: scheme($tg-on-error-container);
+    }
+  }
+  .tg-success-text {
+    @include themed() {
+      color: scheme($tg-success);
+    }
+  }
+  .tg-background {
+    @include themed() {
+      background-color: scheme($tg-background);
+    }
+  }
+  .tg-background-text {
+    @include themed() {
+      color: scheme($tg-background);
+    }
+  }
+  .tg-on-background {
+    @include themed() {
+      background-color: scheme($tg-on-background);
+    }
+  }
+  .tg-on-background-text {
+    @include themed() {
+      color: scheme($tg-on-background);
+    }
+  }
+  .tg-surface {
+    @include themed() {
+      background-color: scheme($tg-surface);
+    }
+  }
+  .tg-surface-text {
+    @include themed() {
+      color: scheme($tg-surface);
+    }
+  }
+  .tg-on-surface {
+    @include themed() {
+      background-color: scheme($tg-on-surface);
+    }
+  }
+  .tg-on-surface-text {
+    @include themed() {
+      color: scheme($tg-on-surface);
+    }
+  }
+  .tg-surface-variant {
+    @include themed() {
+      background-color: scheme($tg-surface-variant);
+    }
+  }
+  .tg-surface-variant-text {
+    @include themed() {
+      color: scheme($tg-surface-variant);
+    }
+  }
+  .tg-on-surface-variant {
+    @include themed() {
+      background-color: scheme($tg-on-surface-variant);
+    }
+  }
+  .tg-outline {
+    @include themed() {
+      background-color: scheme($tg-outline);
+    }
+  }
+  .tg-outline-text {
+    @include themed() {
+      color: scheme($tg-outline);
+    }
+  }
+  .tg-outline-variant {
+    @include themed() {
+      background-color: scheme($tg-outline-variant);
+    }
+  }
+  .tg-outline-variant-text {
+    @include themed() {
+      color: scheme($tg-outline-variant);
+    }
+  }
+  .tg-outline-variant-border {
+    @include themed() {
+      border-color: scheme($tg-outline-variant);
+    }
+  }
+  .tg-on-surface-variant-text {
+    @include themed() {
+      color: scheme($tg-on-surface-variant);
+    }
+  }
+  
+  .tg-shadow {
+    @include themed() {
+      background-color: scheme($tg-shadow);
+    }
+  }
+  .tg-shadow-text {
+    @include themed() {
+      color: scheme($tg-shadow);
+    }
+  }
+  
+  .tg-scrim {
+    @include themed() {
+      background-color: scheme($tg-scrim);
+    }
+  }
+  .tg-scrim-text {
+    @include themed() {
+      color: scheme($tg-scrim);
+    }
+  }
+  .tg-inverse-surface {
+    @include themed() {
+      background-color: scheme($tg-inverse-surface);
+    }
+  }
+  .tg-inverse-surface-text {
+    @include themed() {
+      color: scheme($tg-inverse-surface);
+    }
+  }
+  .tg-inverse-on-surface {
+    @include themed() {
+      background-color: scheme($tg-inverse-on-surface);
+    }
+  }
+  .tg-inverse-on-surface-text {
+    @include themed() {
+      color: scheme($tg-inverse-on-surface);
+    }
+  }
+  
+  .tg-inverse-primary {
+    @include themed() {
+      background-color: scheme($tg-inverse-primary);
+    }
+  }
+  .tg-inverse-primary-text {
+    @include themed() {
+      color: scheme($tg-inverse-primary);
+    }
+  }
+  
+  .tg-primary-fixed {
+    @include themed() {
+      background-color: scheme($tg-primary-fixed);
+    }
+  }
+  .tg-primary-fixed-text {
+    @include themed() {
+      color: scheme($tg-primary-fixed);
+    }
+  }
+  
+  .tg-on-primary-fixed {
+    @include themed() {
+      background-color: scheme($tg-on-primary-fixed);
+    }
+  }
+  .tg-on-primary-fixed-text {
+    @include themed() {
+      color: scheme($tg-on-primary-fixed);
+    }
+  }
+  
+  .tg-secondary-fixed {
+    @include themed() {
+      background-color: scheme($tg-secondary-fixed);
+    }
+  }
+  .tg-secondary-fixed-text {
+    @include themed() {
+      color: scheme($tg-secondary-fixed);
+    }
+  }
+  
+  .tg-secondary-fixed-dim {
+    @include themed() {
+      background-color: scheme($tg-secondary-fixed-dim);
+    }
+  }
+  .tg-secondary-fixed-dim-text {
+    @include themed() {
+      color: scheme($tg-secondary-fixed-dim);
+    }
+  }
+  
+  .tg-on-secondary-fixed-variant {
+    @include themed() {
+      background-color: scheme($tg-on-secondary-fixed-variant);
+    }
+  }
+  .tg-on-secondary-fixed-variant-text {
+    @include themed() {
+      color: scheme($tg-on-secondary-fixed-variant);
+    }
+  }
+  
+  .tg-tertiary-fixed{
+    @include themed() {
+      background-color: scheme($tg-tertiary-fixed);
+    }
+  }
+  .tg-tertiary-fixed-text {
+    @include themed() {
+      color: scheme($tg-tertiary-fixed);
+    }
+  }
+  
+  .tg-on-tertiary-fixed{
+    @include themed() {
+      background-color: scheme($tg-on-tertiary-fixed);
+    }
+  }
+  .tg-tertiary-fixed-text {
+    @include themed() {
+      color: scheme($tg-on-tertiary-fixed);
+    }
+  }
+  
+  .tg-tertiary-fixed-dim {
+    @include themed() {
+      background-color: scheme($tg-tertiary-fixed-dim);
+    }
+  }
+  .tg-tertiary-fixed-dim-text {
+    @include themed() {
+      color: scheme($tg-tertiary-fixed-dim);
+    }
+  }
+  
+  .tg-on-tertiary-fixed-variant {
+    @include themed() {
+      background-color: scheme($tg-on-tertiary-fixed-variant);
+    }
+  }
+  .tg-on-tertiary-fixed-variant-text {
+    @include themed() {
+      color: scheme($tg-on-tertiary-fixed-variant);
+    }
+  }
+  
+  .tg-surface-dim {
+    @include themed() {
+      background-color: scheme($tg-surface-dim);
+    }
+  }
+  .tg-surface-dim-text {
+    @include themed() {
+      color: scheme($tg-surface-dim);
+    }
+  }
+  
+  .tg-surface-bright {
+    @include themed() {
+      background-color: scheme($tg-surface-bright);
+    }
+  }
+  .tg-surface-bright-text {
+    @include themed() {
+      color: scheme($tg-surface-bright);
+    }
+  }
+  
+  .tg-surface-container-lowest {
+    @include themed() {
+      background-color: scheme($tg-surface-container-lowest);
+    }
+  }
+  .tg-surface-container-lowest-text {
+    @include themed() {
+      color: scheme($tg-surface-container-lowest);
+    }
+  }
+  
+  .tg-surface-container-low {
+    @include themed() {
+      background-color: scheme($tg-surface-container-lowest);
+    }
+  }
+  .tg-surface-container-low-text {
+    @include themed() {
+      color: scheme($tg-surface-container-lowest);
+    }
+  }
+  
+  .tg-surface-container {
+    @include themed() {
+      background-color: scheme($tg-surface-container);
+    }
+  }
+  .tg-surface-container-text {
+    @include themed() {
+      color: scheme($tg-surface-container);
+    }
+  }
+  
+  .tg-surface-container-high {
+    @include themed() {
+      background-color: scheme($tg-surface-container-high);
+    }
+  }
+  .tg-surface-container-high-text {
+    @include themed() {
+      color: scheme($tg-surface-container-high);
+    }
+  }
+  
+  .tg-surface-container-highest {
+    @include themed() {
+      background-color: scheme($tg-surface-container-highest);
+    }
+  }
+  
+  .tg-surface-container-highest-border{
+    border-width: 1px;
+    border-style: solid;
+    @include themed() {
+      border-color: scheme($tg-surface-container-highest);
+    }
+  }
+  
+  .tg-surface-container-highest-text {
+    @include themed() {
+      color: scheme($tg-surface-container-highest);
+    }
+  }
+  
+  
+  
+  

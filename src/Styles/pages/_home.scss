@@ -1,0 +1,73 @@
+.video-grid-container {
+  width: 100%;
+  gap: 24px;
+  padding: 32px 24px;
+  .video-group-container {
+    width: 100%;
+    .group-title {
+      padding: 12px 16px;
+      font-size: 20px;
+      font-weight: 600;
+      width: fit-content;
+      min-width: 200px;
+      border-radius: 12px;
+      margin: 24px 0;
+      text-align: center;
+    }
+    .flex-grid {
+      gap: 12px;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      overscroll-behavior-inline: contain;
+      scroll-snap-type: inline mandatory;
+      scroll-padding-inline: 1rem;
+      .video-card-container {
+        flex: 0 0 300px; /* No crece, no se encoge, base de 300px */
+      }
+    }
+    &:first-child {
+      .group-title {
+        background-color: #6bd1ff;
+      }
+      .flex-grid {
+        .video-card-container {
+          border: 1.5px solid #6bd1ff;
+        }
+      }
+    }
+    &:nth-child(2) {
+      .group-title {
+        background-color: #00c86f;
+      }
+      .flex-grid {
+        .video-card-container {
+          border: 1.5px solid #00c86f;
+        }
+      }
+    }
+    &:last-child {
+      .group-title {
+        background-color: #ffba05;
+      }
+      .flex-grid {
+        .video-card-container {
+          border: 1.5px solid #ffba05;
+        }
+      }
+    }
+  }
+}
+
+@mixin breakpoint-up($medium) {
+  .video-grid-container {
+    .video-group-container {
+      .flex-grid {
+        .video-card-container {
+          flex: 0 1 calc(33.333% - 1rem); /* Permite que las tarjetas se ajusten al espacio */
+          min-width: 300px;
+        }
+      }
+    }
+  }
+}
+
